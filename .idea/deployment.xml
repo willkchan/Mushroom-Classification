@@ -1,25 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="ubuntu@ec2-34-228-71-91.compute-1.amazonaws.com:22" remoteFilesAllowedToDisappearOnAutoupload="false">
+  <component name="PublishConfigData" autoUpload="Always" serverName="ubuntu@54.161.218.139:22" remoteFilesAllowedToDisappearOnAutoupload="false">
     <serverData>
-      <paths name="ubuntu@ec2-3-89-97-63.compute-1.amazonaws.com:22">
+      <paths name="ubuntu@54.161.218.139:22">
         <serverdata>
           <mappings>
-            <mapping deploy="/home/ubuntu/classification_project" local="$PROJECT_DIR$" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="ubuntu@ec2-34-228-71-91.compute-1.amazonaws.com:22">
-        <serverdata>
-          <mappings>
-            <mapping deploy="/home/ubuntu/classification_project" local="$PROJECT_DIR$" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="ubuntu@ec2-54-173-228-211.compute-1.amazonaws.com:22">
-        <serverdata>
-          <mappings>
-            <mapping deploy="/home/ubuntu/classification_project" local="$PROJECT_DIR$" />
+            <mapping deploy="/home/ubuntu/Mushroom_Classification" local="$PROJECT_DIR$" />
           </mappings>
         </serverdata>
       </paths>
