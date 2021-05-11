@@ -11,6 +11,13 @@
             </RMarkdownRenderProfile>
           </value>
         </entry>
+        <entry key="file://$PROJECT_DIR$/notebooks/eda/Exploratory_Data_Analysis_0b.rmd">
+          <value>
+            <RMarkdownRenderProfile>
+              <option name="outputDirectoryUrl" value="file://$PROJECT_DIR$/notebooks/eda" />
+            </RMarkdownRenderProfile>
+          </value>
+        </entry>
         <entry key="file://$PROJECT_DIR$/notebooks/eda/Exploratory_Data_Analysis_0c.rmd">
           <value>
             <RMarkdownRenderProfile>

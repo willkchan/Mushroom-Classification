@@ -1,0 +1,21 @@
+,position,slope,features
+0,0,0.0,Cap-Surface: smooth
+1,0,0.0,Veil-Color: brown
+2,0,0.0,Cap-Color: cinnamon
+3,0,0.0,Veil-Color: orange
+4,0,0.0,Stalk-Root: equal
+5,0,0.0,Population: clustered
+6,0,0.0,Bruises: no
+7,0,0.0,Habitat: leaves
+8,0,0.0,Stalk-Color-Above-Ring: orange
+9,0,0.0,Stalk-Color-Below-Ring: orange
+10,1,-0.62,Cap-Surface: smooth
+11,1,-0.63,Veil-Color: brown
+12,1,-0.66,Cap-Color: cinnamon
+13,1,-0.7,Veil-Color: orange
+14,1,-0.71,Stalk-Root: equal
+15,1,-0.76,Population: clustered
+16,1,-0.78,Bruises: no
+17,1,-1.08,Habitat: leaves
+18,1,-1.33,Stalk-Color-Above-Ring: orange
+19,1,-1.33,Stalk-Color-Below-Ring: orange
