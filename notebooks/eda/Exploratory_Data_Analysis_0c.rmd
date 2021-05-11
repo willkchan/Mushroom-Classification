@@ -1,0 +1,67 @@
+---
+title: "R Notebook"
+author: wkc
+date: 5/11/21
+output: html_document
+---
+
+```{r}
+
+install.packages("sf")
+```
+
+
+
+```{r}
+
+library(readr)
+library(ggplot2)
+library(tidyverse)
+library(sf)
+slopes <- read.csv2("../../data/processed/gill-attached-top-slopes.csv", header=TRUE, sep=",")
+slopes
+```
+
+Type any R code in the chunk, for example:
+```{r}
+# fig <- function(width, heigth){
+#      options(repr.plot.width = 30, repr.plot.height = 15)
+# }
+
+# options(repr.plot.width = 40, repr.plot.height = 20)
+# png(filename="slope_chart.png", width=600, height=600)
+
+
+ggplot(data=slopes, aes(x=position, y=slopes, group=features)) +
+  geom_line(aes(color=features, alpha=1), size = 2) +
+  # geom_text(data=slopes %>% filter(position==1),
+  #           aes(label=paste0(features, " - ", slopes)),
+  #           hjust=-0.35,
+  #           fontface="bold",
+  #           size=4) +
+  theme_bw() +
+  # theme(legend.position="none") +
+  theme(panel.border=element_blank()) +
+  theme(axis.title.y=element_blank()) +
+  theme(axis.text.y=element_blank()) +
+  theme(panel.grid.major.y=element_blank()) +
+  theme(panel.grid.minor.y=element_blank()) +
+  theme(axis.title.x=element_blank()) +
+  theme(axis.text.x=element_blank()) +
+  theme(panel.grid.major.x=element_blank()) +
+  theme(axis.ticks=element_blank()) +
+  labs(
+    title = "Slope Graph of Features with Gill Attachment"
+  )
+
+ggsave("slope_graph.png", width = 20, height = 20, units = "cm")
+
+```
+
+
+```{r}
+packageVersion("ggplot2")
+```
+
+Now, click the **Run** button on the chunk toolbar to [execute](https://www.jetbrains.com/help/pycharm/r-markdown.html#run-r-code) the chunk code. The result should be placed under the chunk.
+Click the **Knit and Open Document** to built and preview an output.
